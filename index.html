@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elek Gulten</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .card {
+      max-width: 600px;
+      width: 100%;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 2.5rem;
+      background: #161b22;
+    }
+    .avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: #533ab7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 500;
+      color: #cbc8f6;
+      margin-bottom: 1.25rem;
+    }
+    h1 { font-size: 22px; font-weight: 500; margin-bottom: 4px; }
+    .location { font-size: 13px; color: #8b949e; margin-bottom: 1.5rem; }
+    .bio {
+      font-size: 14px;
+      line-height: 1.8;
+      color: #c9d1d9;
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid #30363d;
+    }
+    .section-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #8b949e;
+      margin-bottom: 0.75rem;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid #30363d;
+    }
+    .tag {
+      font-size: 12px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      background: #1f2937;
+      border: 1px solid #30363d;
+      color: #c9d1d9;
+    }
+    .links { display: flex; flex-direction: column; gap: 8px; }
+    .links a {
+      font-size: 13px;
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    .links a:hover { text-decoration: underline; }
+    .building {
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid #30363d;
+    }
+    .building ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .building ul li {
+      font-size: 14px;
+      color: #c9d1d9;
+      padding-left: 1rem;
+      position: relative;
+    }
+    .building ul li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: #533ab7;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">EG</div>
+    <h1>Elek Gulten</h1>
+    <p class="location">Konya, Turkey · Independent Developer</p>
+
+    <p class="bio">
+      Developer working with Python and JavaScript, currently expanding into
+      EVM-compatible smart contract development with Solidity. Focused on
+      building at the intersection of stablecoin infrastructure and real-world
+      financial applications.
+    </p>
+
+    <div class="building">
+      <p class="section-title">Currently building</p>
+      <ul>
+        <li>Exploring Arc — Circle's stablecoin-native L1 blockchain</li>
+        <li>Smart contract development on EVM-compatible networks</li>
+        <li>Tools at the intersection of DeFi and real-world finance</li>
+      </ul>
+    </div>
+
+    <div class="tags">
+      <p class="section-title" style="width:100%">Tech</p>
+      <span class="tag">Python</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">Solidity</span>
+      <span class="tag">EVM</span>
+      <span class="tag">Web3</span>
+      <span class="tag">DeFi</span>
+    </div>
+
+    <div class="links">
+      <p class="section-title">Links</p>
+      <a href="https://github.com/elekgulten">github.com/elekgulten</a>
+      <a href="#">LinkedIn — coming soon</a>
+    </div>
+  </div>
+</body>
+</html>
